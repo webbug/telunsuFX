@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>特仑苏10年</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui"/>
+<link href="css/animate.min.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/animate.min.css" type="text/css" />
+
+
+<style>
+		
+		*{padding: 0;margin: 0;}
+		
+		/*自动缩放以及loading框架*/
+		.swipe-wrap{width: 100%;height: 100%;position: relative;overflow: hidden;}
+		.swipe{position:absolute;width:100%;}
+		.swipe-box{width: 100%;overflow: hidden;}
+		
+		.m_clear{zoom:1;}
+		.m_clear:after{content:"";display:block;clear:both;}
+		.m_porR {position: relative;}
+		.m_porA {position: absolute;background: #021343;width: 100%;height: 100%;}
+		.m_fl {float:left;}
+		.m_fr {float:right;}
+		.m_db {display: block;}
+		.m_dn {display:none;}
+		.m_oh {overflow:hidden;}
+		.m_w100,.m_wrapper,.loadFont {width:100%;}
+		.m_mAuto {margin: 0 auto;}
+		.m_tac {text-align:center;}
+		.m_bgn {background:none;}
+		.m_fs10 {font-size:10px;}
+		.m_fs12 {font-size:12px;}
+		.m_fs14 {font-size:14px;}
+		.m_fs16 {font-size:16px;}
+		.m_fs18 {font-size:18px;}
+		.m_fs22 {font-size:22px;}
+		.m_fw {font-weight:bold;}
+		.cfff {color:#fff;}
+		.m_inpNoBg {-webkit-appearance:none;background:none;}
+		.changeWord { line-height:0;font-size:0; overflow:hidden;color:rgba(255,255,255,0);}
+		
+		/*lufylegend.js样式*/
+		.legend {position:absolute;z-index:2;font-size:0px;}
+		
+		/*loadding样式*/
+		.load {top:0;left:0;width:100%;}
+		.loadImg {width:20%;margin:50% 0 0 40%;}
+	    .loadFont{
+	    	color: #b8945c;
+	    }
+	    .loadImg img{
+	    	-webkit-animation: loadcircle 1.4s infinite linear;
+	    }
+		@-webkit-keyframes loadcircle{
+			from{
+				-webkit-transform: rotate(0deg);
+			}
+			to{
+				-webkit-transform: rotate(360deg);
+			}
+		}
+	
+		
+		
+		
+		</style>
+
+          <!--<img class="fan" src="images/fan.jpg" width="100%" height="auto" style="margin-top: 30px;" />-->
+</head>
+<body>
+	
+	<!--loading-->
+    <div class="m_porA load">
+	    <div class="loadImg"><img src="images/load.png" width="100%" /></div>
+	    <div class="m_porA m_tac m_fs12 loadFont"><br /><br />加载中...</div>
+	</div>
+	
+	<!--main-->
+	 <div class="m_wrapper" style="opacity:0;">
+   
+        
+        <div id="body">
+        	<div class="top_box">
+        	  <div class="pao"></div>
+              <div class="content_lqjl">
+                 <img class="title_lqjl" src="images/title_hdsk.png" width="60.4%" height="auto" />
+                 <div class="lq_bao dao_bao">
+                    <img class="time_img time_img1" src="images/dao_hdsk_hai.png" />
+                    <div class="dao_time">88</div>
+                    <img class="time_img time_img2" src="images/dao_hdsk_tian.png" />
+                 </div>
+                 <div class="list_lqjl">
+                   <img class="ysc_hdsk" src="images/ysc_hdsk.png" />
+                   <dl class="num_plus">
+                      <dd>0</dd>
+                      <dd>1</dd>
+                      <dd>2</dd>
+                      <dd>3</dd>
+                      <dd>4</dd>
+                      <dd>5</dd>
+                      <dd>6</dd>
+                      <dd>7</dd>
+                      <dd class="last">8</dd>
+                      <img class="yuan" src="images/yuan.png" />
+                   </dl>
+                   <img class="gy_hdsk" src="images/gy_hdsk.png" />
+                   <dl class="num_plus mar_pkus">
+                      <dd>0</dd>
+                      <dd>1</dd>
+                      <dd>2</dd>
+                      <dd>3</dd>
+                      <dd>4</dd>
+                      <dd>5</dd>
+                      <dd>6</dd>
+                      <dd>7</dd>
+                      <dd class="last">8</dd>
+                      <img class="ren" src="images/ren.png" />
+                   </dl>
+                   
+                   <img class="lqxj_hdsk" src="images/lqxj_hdsk.png" />
+                    
+                    <img class="ckhlbd_button" src="images/ckhlbd_button.png" />
+                   
+                 </div>
+              </div>
+              
+            </div>
+	
+	      <div class="bottom_nav">
+	      	<div class="bottom_nav_bao">
+	      		<div class="bbtn bbtn1"></div>
+        		<div class="bbtn bbtn2"></div>
+        		<div class="bbtn bbtn3"></div>
+        		<div class="bbtn bbtn4"></div>
+        		<div class="bbtn bbtn5"></div>
+	      	</div>
+          </div>
+	
+       </div>
+	
+	 
+     </div>
+
+
+	<script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/index.js"></script>
+	
+	
+</body>
+</html>
